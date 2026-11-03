@@ -230,33 +230,15 @@ section {
 }
 
 .features {
-    background-color: rgb(20, 3, 20);
+    background-color: rgb(140, 12, 17);
 }
  
-/* .feature-container { */
-    /* display: flex; */
-    /* align-items: center; */
-    /* grid-template-columns: repeat(3, 1fr); */
-    /* gap: 50ppx, 30px; */
-/* }  */
-
-
- .features {
-    display: grid;
-    grid-template-columns: repeat(1.1fr);
-    
- }
-
 .feature-icon {
     font-size: 15px;
     color: #ddd;
-    /* margin-bottom: 15px; */
-    /* display: grid; */
-    /* grid-template-columns: none; */
-    /* align-items: center; */
-    /* display: flex; */
-    /* justify-content: center; */
-}
+    margin-bottom: 15px;
+    align-items: center;
+} 
 
 .feature h3 { 
     font-size: 20px;
