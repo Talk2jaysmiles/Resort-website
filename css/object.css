@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.Products {
+    max-width: 1000px;
+    display: flex;
+    gap: 25px;
+    padding: 60px;
+    box-shadow: 0 0 10px grey;
+    border-radius: 10px;
+}
+.Product{
+  width: 250px;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px black;
+  flex: 1;
+}
+
+.Products img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+
+h3 {
+    margin: 10px 0;
+    font-size: 1.4rem;
+}
+p{
+    color: red;
+}

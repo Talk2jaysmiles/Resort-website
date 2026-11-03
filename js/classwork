@@ -1,0 +1,60 @@
+let number = '15';
+console.log(15)
+console.log(number.length)
+
+
+// CLASSWORK CORRECTION
+// No 1
+let category = "Web Students";
+let class_students = ['Jude', 'Godswill', 'David'];
+console.log(category.length)
+console.log(class_students.length)
+
+// No2
+let course = 'JavaScript class';
+console.log(course.includes('Script'));
+
+// No3
+console.log(course.replace('JavaScript', 'Python'));
+
+// No 4
+let fruit1 = 'Mango';
+let fruit2 = 'Avocado';
+console.log(fruit1.length == fruit2.length)
+
+// No5
+let subject1 = 'Python';
+let subject2 = 'Jargon';
+console.log(subject1.length !== subject2.length)
+
+// No6
+let firstName = 'Stella';
+let lastName = 'Ezemobi' ;
+let age = 18;
+let Nationality = 'Nigerian';
+let best_course = ' JavaScript'
+let output = `Hello, my name is ${lastName} ${firstName}, I am ${age} years old, a ${Nationality}, I understand ${best_course}.`
+console.log(output)
+
+// No7
+let class_duration = '31 days of javaScript Class';
+console.log(class_duration.indexOf('javaScript'))
+
+// No8
+let salary_per_month = 5000  * 12;
+let annual_bonus = 10000;
+let online_course_per_month = 15000 * 12;
+let total_annual_income = salary_per_month + annual_bonus + online_course_per_month
+console.log(total_annual_income)
+
+// No9
+let side_A = 5;
+let side_B = 4;
+let side_C = 3
+let perimeter = side_A + side_B + side_C
+console.log(perimeter)
+
+
+
+
+

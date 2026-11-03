@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.0/css/all.min.css"
+    />
+    <link
+      rel="shortcut icon"
+      href="/images/whatsapp-brands-solid.png"
+      type="image/x-icon"
+    />
+    <title>Login</title>
+  </head>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: sans-serif;
+    }
+    form {
+      background-color: rgb(216, 206, 206);
+      width: 350px;
+      margin: 80px auto;
+      border-radius: 10px;
+      padding: 50px 30px;
+    }
+    h2 {
+      text-align: center;
+    }
+    input:not([type="checkbox"]) {
+      display: block;
+      width: 100%;
+      border-radius: 25px;
+      border: none;
+      padding: 20px;
+      margin: 20px 0;
+    }
+    ::placeholder {
+      font-weight: 600;
+      color: black;
+    }
+    input[type="submit"] {
+      background-color: black;
+      color: white;
+      margin: 30px 0;
+    }
+    div {
+      display: flex;
+      justify-content: space-between;
+    }
+    .checkbox {
+      display: flex;
+      gap: 10px;
+    }
+    a {
+      color: black;
+      text-decoration: none;
+      font-size: 14px;
+    }
+    p a {
+      font-weight: 800;
+    }
+    p {
+      text-align: center;
+    }
+    i {
+      width: 100px;
+    }
+  </style>
+
+  <body>
+    <form>
+      <h2>Login</h2>
+      <input type="Email" placeholder="Email" />
+      <input type="Password" placeholder="Password" />
+      <div>
+        <div class="checkbox">
+          <input type="checkbox" />
+          <label for="">Remember Me</label>
+        </div>
+        <a href="#">Forgot Password</a>
+      </div>
+      <input type="submit" value="Sign In" />
+      <p>Don't have account? <a href="#">Sign Up</a></p>
+      <i
+        class="fa-brands fa-whatsapp fa-2xl"
+        style="color: rgb(254, 255, 255)"
+      ></i>
+    </form>
+  </body>
+</html>

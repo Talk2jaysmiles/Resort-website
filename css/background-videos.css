@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+   --btn-primary: rgb(0, 0, 255);
+   --primary-color: rgb(255, 255, 255);
+   --dark-color: black;
+}
+nav img{
+   width: 120px;
+}
+
+nav{
+   width: 100%;
+   background-color: var(--primary-color);
+   position: sticky;
+   top: 0;
+   z-index: 1;
+}
+ul{
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+   gap: 30px;
+   padding: 0 30px;
+}
+nav li:first-child{
+   margin-right: auto;
+}
+nav li a{
+   color: var(--dark-color);
+   font-weight: 600;
+   text-decoration: none;
+}
+.side-bar{
+   background-color: rgba(0, 0, 0, 0.7);
+    display: none; 
+   position: fixed;
+    width: 250px;
+    min-height: 100vh;
+    right: 0;
+    top: 0;
+    flex-direction: column;
+    backdrop-filter: blur(13px);
+}
+.side-bar li a{
+   color: var(--primary-color);
+}
+.menu-bar{
+   display: none;
+}
+
+/* section styling starts */
+ section{
+    position: relative;
+    min-height: 100vh;
+    overflow: hidden;
+    /* color: rgb(250, 250, 252); */
+    color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+ }
+
+ .over-lay{
+    position: absolute;
+    background: rgba(0, 0, 0, 0.612);
+    top: 0;
+    left: 0;
+    right: 50px;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+ }
+ .hero-content{
+    text-align: center;
+    max-width: 900px;
+    padding: 20px;
+ }
+ .hero-content h1{
+    font-size: 3rem;
+ }
+ .hero-content p{
+    font-size: 1.8rem;
+    margin: 20px 0 30px;
+ }
+  button{
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    background: var(--btn-primary);
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+.hero-content button:hover{
+    background-color: rgb(9, 9, 129);
+}
+/* section styling ends */
+
+
+/* Responsiveness */
+@media (max-width: 768px){
+   .menu-bar{
+      display: block;
+   }
+   .hideOnMobile{
+      display: none;
+   }
+    .side-bar{
+    display: block;
+   } 
+   .side-bar li{
+      padding: 30px 0;
+   }
+}
+@media (max-width: 400px) {
+   .side-bar{
+      width: 100%;
+   }
+}

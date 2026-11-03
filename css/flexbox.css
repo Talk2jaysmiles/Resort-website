@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+   display: flex;
+   flex-direction: row;
+   gap: 20px;
+   justify-content: space-evenly;
+
+}
+.box {
+    width: 30px;
+    height: 150px;
+    background-color: lightblue;
+    border: 2px;
+    color: white;
+    border-radius: 10px;
+  
+}

@@ -1,0 +1,43 @@
+*{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        background: url(nav-bar image.webp);
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 100vh;
+    }
+
+    nav {
+        display: flex;
+        background-color: black;
+        align-items: center;
+        min-height: 15vh;
+        padding: 20px;
+        justify-content: space-between;
+    }
+
+    h1 {
+        color: white;
+    }
+
+    ul {
+        display: flex;
+        gap: 60px;
+        list-style-type: none;
+        padding: 0 40px;
+    }
+
+    li {
+        display: inline-block;
+        padding: 20px 40px;
+    }
+
+    */a {
+        text-decoration: none;
+        color: white;
+
+    }

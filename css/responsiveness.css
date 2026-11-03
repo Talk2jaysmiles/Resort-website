@@ -1,0 +1,36 @@
+/* Responsiveness */
+@media (max-width:600px) {
+    header{
+        flex-direction: column;
+                background-color: black;
+                color: white;
+    }
+    nav{
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+    }
+    li a{
+        color: white;
+
+    }
+    .nav-icon{
+
+        margin: 30px auto;
+    }
+    .white{
+        display: block;
+    }
+    .grey{
+        display: none;
+    }
+    main{
+        flex-direction: column;
+    }
+    .btn{
+        flex-direction: column;
+        width: 100%;
+    }
+
+}

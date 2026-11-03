@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-image: url(/images/WhatsApp\ Image\ 2025-05-14\ at\ 11.27.44\ AM.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+
+/* logo with text as h2 starts */
+/* .logo{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 50px;
+}
+h2{
+    color: white;
+} */
+ /* logo with text as h2 ends */
+
+ .logo img{
+    width: 150px;
+ }
+
+ header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 800px;
+    margin:auto ;
+ }
+ nav ul{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+ }
+ li a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+ }
+ .container{
+    display: flex;
+    justify-content: center;
+        min-height: 90vh;
+        align-items: center;
+ }
+ main{
+    text-align: center;
+    width: 800px;
+
+ }
+ .btn{
+    display: flex;
+    /* border: 1px solid red; */
+    width: 400px;
+    margin: auto;
+    gap: 10px;
+ }
+ .heading1{
+    color: aqua;
+    font-size: 2.5rem;
+    font-weight: 100;
+ }
+ .heading2{
+    color: white;
+    font-weight: 900;
+    font-size: 3rem;
+ }
+ p{
+    color: white;
+    font-size: 0.9rem;
+    line-height: 25px;
+    margin: 20px;
+ }
+ button{
+    background-color: white;
+    padding: 10px 24px;
+    border-radius: 25px;
+    border: none;
+    flex: 1;
+}
+ button a{
+    color: black;
+    text-decoration: none;
+ }

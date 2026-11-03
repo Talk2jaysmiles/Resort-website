@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    min-height: 100hv;
+    justify-content: center;
+    align-items: center;
+}
+
+.Products {
+    padding: 60px;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 25px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px grey;
+}
+
+.products{
+    width: 250px;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0, 0, 10px black;
+}
+
+.products img {
+    width: 100%;
+    height: 80%;
+}
+
+h3 {
+  margin: 10px 0;
+  font-size: 1.4rem;
+}
+
+p {
+    color: red;
+}

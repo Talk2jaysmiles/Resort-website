@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>table</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    table{
+        margin: auto;
+        border: 1px solid black ;
+        border-collapse: collapse;
+        margin-top: 40px;
+    }
+    h1{
+        text-align: center;
+        margin-top: 40px;
+    }
+    td{
+        border:1px solid black ; 
+        padding: 20px;
+    }
+    th{
+        font-size: 900;
+        border:1px solid black ; 
+        padding: 20px;
+        font-family: sans-serif;
+        
+    }
+    tr:nth-child(odd){
+        background-color: lightgrey;
+    }
+    #tt{
+        box-shadow:0px 0px 10px red ;
+        border-radius: 50%;
+        padding: 15px;
+        background-color: aliceblue;
+    }
+
+</style>
+<body>
+    <h1>july calender</h1>
+    <table>
+        <tr>
+            <th>sunday</th>
+            <th>monday</th>
+            <th>tuesday</th>
+            <th>wednesday</th>
+            <th>thursday</th>
+            <th>friday</th>
+            <th>saturday</th>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>6</td>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td>10</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>12</td>
+            <td>13</td>
+            <td>14</td>
+            <td>15</td>
+            <td>16</td>
+            <td>17</td>
+            <td>18</td>
+        </tr>
+        <tr>
+            <td>19</td>
+            <td>20</td>
+            <td>21</td>
+            <td>22</td>
+            <td><span id="tt">23</span></td>
+            <td>24</td>
+            <td>25</td>
+        </tr>
+        <tr>
+            <td>26</td>
+            <td>27</td>
+            <td>28</td>
+            <td>29</td>
+            <td>30</td>
+            <td>31</td>
+            <td></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FORM</title>
+  </head>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+    h1 {
+      text-align: center;
+    }
+     form{
+        width: 400px;
+        margin: 50px auto;
+        box-shadow: 0 0 10px rgb(9, 9, 9);
+        border-radius: 10px;
+        padding: 40px 30px;
+     }
+     label{
+        font-size: 1.2rem;
+     }
+     input{
+        display: block;
+        width: 100%;
+        padding: 10px;
+        background-color: rgba(153, 152, 152, 0.662);
+        border-radius: 5px;
+        border: none;
+        margin: 3px 0 10px;
+     }
+     ::placeholder{
+        color: black;
+        font-weight: 600;
+     }
+     input[type=Submit]{
+        margin-top: 20px;
+        background-color: green;
+        color: white;
+        font-weight: 600;
+        font-size: 0.9rem;
+     }
+  </style>
+
+  <body>
+    <h1>CLASS REGISTRATION FORM</h1>
+
+    <form>
+        <label>First Name</label>
+        <input type="text" placeholder="Enter Your First Name">
+        <label>Last Name</label>
+        <input type="text" placeholder="Enter Your Last Name">
+        <label>Email</label>
+        <input type="email" placeholder="Enter Your Email Address">
+        <label>Password</label>
+        <input type="password" placeholder="Enter Your Password">
+        <label>Phone Number</label>
+        <input type="tel" placeholder="Enter Your Phone Number">
+        <input type="Submit">
+    </form>
+  </body>
+</html>

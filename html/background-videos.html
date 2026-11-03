@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/background-videos.css">
+    <title>Background-video</title>
+</head>
+<body>
+    <nav>
+        <ul class="side-bar">
+            <li onclick="hideSideBar()"><a href="#"><i class="fa-solid fa-xmark fa-lg" style="color: rgb(255, 255, 255);"></i></a></li>
+            <li><a href="/html/background-video.html">Home</a></li>
+            <li><a href="/html/about-me.html">About Us</a></li>
+            <li><a href="/html/form.html">Contact</a></li>
+            <li><a href="/html/sneakers.html">Product</a></li>
+        </ul>
+        <ul>
+            <li><img src="/images/entro logo.png" alt=""></li>
+            <li class="hideOnMobile"><a href="/html/background-video.html">Home</a></li>
+            <li class="hideOnMobile"><a href="/html/about-me.html">About Us</a></li>
+            <li class="hideOnMobile"><a href="/html/form.html">Contact</a></li>
+            <li class="hideOnMobile"><a href="/html/sneakers.html">Product</a></li>
+            <li onclick="showSideBar()"><a href="#" class="menu-bar"><i class="fa-solid fa-bars" style="color: rgb(255, 212, 59);"></i></a></li>
+        </ul>
+    </nav>
+
+
+
+    <section>
+        <video autoplay muted loop>
+            <source src="/images/image/video-landing.mp4">
+        </video>
+        <div class="over-lay"></div>
+        <div class="hero-content">
+            <h1>WELCOME TO MY LANDING-PAGE</h1>
+            <p>Create beautiful landing page with background Video</p>
+            <button>Get Connected</button>
+        </div>
+    </section>
+
+    <script>
+        function showSideBar() {
+            document.querySelector('.side-bar').style.display = 'flex';
+        }
+        function hideSideBar(){
+            document.querySelector('.side-bar').style.display = 'none';
+        }
+    </script>
+</body>
+</html>

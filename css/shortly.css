@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.612), rgba(0, 0, 0, 0.622)), url(/images/shortly-image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 60vh;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(249, 248, 248);
+    font-size: 0.8rem;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    max-width: 800px;
+    margin: auto;
+    font-family: sans-serif;
+    /* padding: 20px 0; */
+    min-height: 10vh;
+}
+
+h2 {
+    color: rgb(8, 201, 201);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+}
+
+/* li a{
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 0.8rem;
+} */
+.access {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+}
+
+.aqua-btn {
+    background-color: rgb(8, 201, 201);
+    border-radius: 15px;
+    padding: 8px 20px;
+    border: none;
+}
+
+.aqua-btn a {
+    color: white;
+}
+
+.holder {
+    color: white;
+    text-align: center;
+    /* margin-top: 80px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 50vh;
+}
+
+.holder p {
+    margin-top: 15px;
+}
+
+.white-btn {
+    padding: 8px 0;
+    border: none;
+    border-radius: 4px;
+    /* margin-top: 60px; */
+    margin: 60px auto;
+    width: 15%;
+}
+
+.white-btn a {
+    color: orangered;
+    font-size: 0.8rem;
+}
+
+.jay {
+    margin-top: 70px;
+    width: 100%;
+    min-height: 40vh;
+    display: flex;
+    background-color: white;
+}
+.jay-container {
+    background: #fff;
+    text-align: center;
+    padding: 60px 8% 60px;
+    max-width: 1050px;
+}
+
+.jay-content h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.jay-content p {
+    text-align: center;
+}
+
+.jay-icons {
+    display: flex;
+    justify-content: center;
+    color: yellow;
+}
+
+.orange-btn {
+    display: inline-block;
+    background-color: orange;
+    font-weight: bold;
+    margin-top: 40px;
+    align-items: center;
+    padding: 12px 40px;
+}
+
+.orange-btn a {
+    align-items: center;
+
+}
+.fusce{
+    text-align: center;
+
+}
+.testimonails {
+    background: orange;
+    color: white;
+    padding: 60px 8% 70px;
+    width: 100%;
+}
+img{
+    width: 40px;
+    margin-bottom: 30px;
+}
+
+.testimonails-heading {
+    /* text-align: center;
+    margin-bottom: 40px; */
+}
+
+.heading{
+    display: flex;
+    padding-top: 10px;
+    margin-top: 30px;
+}
+
+.quote {
+    font-family: Georgia, serif;
+    font-size: 15px;
+    margin-bottom: 5px;
+
+}

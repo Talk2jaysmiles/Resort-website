@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(230, 230, 230);
+    min-height: 100vh;
+    align-items: center;
+}
+.contact-container{
+    width: 800px;
+}
+h2{
+    text-align: center;
+}
+.horiz{
+    display: flex;
+    gap: 1px;
+    justify-content: center;
+    margin: 10px 0;
+}
+hr{
+    width: 3%;
+}
+.green-horiz{
+    border: 1px solid rgb(5, 251, 5);
+}
+p{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.526);
+}
+strong{
+    color: rgba(0, 0, 0, 0.298);
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+.info-details{
+    text-align: center;
+    line-height: 40px;
+}
+.border{
+    border-left: 0.1px solid rgba(155, 155, 155, 0.298);
+    border-right: 0.1px solid rgba(155, 155, 155, 0.298);
+    padding: 0 30px;
+}
+.form2{
+    display: flex;
+    gap: 7px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    margin: 7px 0;
+    border: 1px solid rgba(155, 155, 155, 0.698);
+}
+textarea{
+    height: 100px;
+    width: 100%;
+    border: 1px solid rgba(155, 155, 155, 0.698);
+    padding: 10px;
+}
+button{
+    display: block;
+    background-color: rgb(99, 230, 190);
+    padding: 10px 24px;
+    border: none;
+    color: white;
+    margin: 10px auto;
+}
